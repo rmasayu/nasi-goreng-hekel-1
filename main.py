@@ -81,12 +81,12 @@ if args.list_menu:
   SELAMAT BELANJA GEEKS!
   """)
 else:
-  if args.topping != None and len(args.topping) > 2:
+  if args.toppings != None and len(args.toppings) > 2:
     parser.error("Toping maksimal 2 aja yaa, lagi mahal nih bahan makanan.")
 
   pesanan = ""
-  if args.topping != None:
-    pesanan = f"Kamu akan memesan {args.jumlah} nasi goreng hekel porsi {args.porsi} dengan toping {', '.join(args.topping)}"
+  if args.toppings != None:
+    pesanan = f"Kamu akan memesan {args.jumlah} nasi goreng hekel porsi {args.porsi} dengan toping {', '.join(args.toppings)}"
   else:
     pesanan = f"Kamu akan memesan {args.jumlah} nasi goreng hekel porsi {args.porsi} tanpa toping"
   print(pesanan)
