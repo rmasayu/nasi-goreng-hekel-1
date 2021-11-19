@@ -85,7 +85,7 @@ else:
     parser.error("Toping maksimal 2 aja yaa, lagi mahal nih bahan makanan.")
 
   pesanan = ""
-  if args.toppings != None:
+  if args.topping != None:
     pesanan = f"Kamu akan memesan {args.jumlah} nasi goreng hekel porsi {args.porsi} dengan toping {', '.join(args.toppings)}"
   else:
     pesanan = f"Kamu akan memesan {args.jumlah} nasi goreng hekel porsi {args.porsi} tanpa toping"
