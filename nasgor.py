@@ -1,4 +1,4 @@
-toppings = {
+topping = {
   'sosis': 1000,
   'ati_ampela': 2000,
   'telur ceplok': 2000,
